@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twitcher.PubSub", "Twitcher.PubSub\Twitcher.PubSub.csproj", "{1CC6509D-A6F9-4750-9834-AA3D7E01229A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twitcher.PubSub", "src\Twitcher.PubSub\Twitcher.PubSub.csproj", "{1CC6509D-A6F9-4750-9834-AA3D7E01229A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Twitcher", "src\Twitcher\src\Twitcher\Twitcher.csproj", "{2B01397D-8AAE-46C1-853A-709931F49D64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1CC6509D-A6F9-4750-9834-AA3D7E01229A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CC6509D-A6F9-4750-9834-AA3D7E01229A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CC6509D-A6F9-4750-9834-AA3D7E01229A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B01397D-8AAE-46C1-853A-709931F49D64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B01397D-8AAE-46C1-853A-709931F49D64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B01397D-8AAE-46C1-853A-709931F49D64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B01397D-8AAE-46C1-853A-709931F49D64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
