@@ -1,0 +1,3 @@
+[submodule "src/Twitcher"]
+	path = src/Twitcher
+	url = https://github.com/TwitcherDev/Twitcher
