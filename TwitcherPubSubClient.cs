@@ -123,10 +123,10 @@ namespace Twitcher.PubSub
         {
             try
             {
-                var time = DateTime.Now;
+                var time = DateTime.UtcNow;
                 while (!_token.IsCancellationRequested)
                 {
-                    var t = (int)((time += TimeSpan.FromMinutes(4 - Random.Shared.NextDouble() / 2)) - DateTime.Now).TotalMilliseconds;
+                    var t = (int)((time += TimeSpan.FromMinutes(4 - Random.Shared.NextDouble() / 2)) - DateTime.UtcNow).TotalMilliseconds;
                     if (t > 0)
                         await Task.Delay(t, _token);
 
