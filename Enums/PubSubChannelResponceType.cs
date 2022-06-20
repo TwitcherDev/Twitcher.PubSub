@@ -1,15 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace Twitcher.PubSub.Enums;
 
-namespace Twitcher.PubSub.Enums
+public enum PubSubChannelResponceType
 {
-    public enum PubSubChannelResponceType
-    {
-        None,
-        Listen,
-        Unlisten
-    }
+    None,
+    Listen,
+    Unlisten
 }
