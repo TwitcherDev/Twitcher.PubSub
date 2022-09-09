@@ -229,7 +229,7 @@ public partial class TwitcherPubSubClient : IDisposable
 
     private async Task Pinging(CancellationToken cancellationToken)
     {
-        var time = DateTime.Now;
+        var time = DateTime.UtcNow;
         while (!cancellationToken.IsCancellationRequested && _isConnected)
         {
             var t = (int)((time += TimeSpan.FromMinutes(4 - Random.Shared.NextDouble() / 2)) - DateTime.Now).TotalMilliseconds;
