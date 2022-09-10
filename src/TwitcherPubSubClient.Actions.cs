@@ -5,7 +5,7 @@ namespace Twitcher.PubSub;
 public partial class TwitcherPubSubClient
 {
     /// <summary>A custom reward is redeemed in a channel</summary>
-    public event EventHandler<MessageEventArgs<RewardRedeemedModel>?>? OnRewardRedeemed;
+    public event EventHandler<MessageEventArgs<RewardRedeemedModel>>? OnRewardRedeemed;
 
     private void Actions(MessageData message)
     {

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -27,11 +27,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="LICENSE">
+    <None Include="..\LICENSE">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-    <None Update="WICKED.png">
+    <None Include="..\WICKED.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
